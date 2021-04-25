@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#00FFFF"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="211dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/sailor_moon" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:longClickable="false"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:text="@string/app_data" />
+
+
+</LinearLayout>
